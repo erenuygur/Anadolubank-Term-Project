@@ -57,7 +57,7 @@ public class BarChart {
         //saving chart as image
         int width = 640;    /* Width of the image */
         int height = 480;   /* Height of the image */
-        File BarChart = new File( "Total Policy Amount BarChart.jpeg" );
+        File BarChart = new File( "Policy Count by Policy Type BarChart.jpeg" );
         ChartUtilities.saveChartAsJPEG( BarChart , barChart , width , height );
 
         ChartPanel cp = new ChartPanel(barChart);
