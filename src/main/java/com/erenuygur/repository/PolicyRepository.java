@@ -12,8 +12,11 @@ import javax.persistence.Query;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
+import java.math.BigInteger;
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
+
 
 @NoArgsConstructor
 @Data
@@ -55,4 +58,25 @@ public class PolicyRepository {
             return new ArrayList<Policy>();
         }
     }
+
+
+    public LinkedHashMap<String, Integer> getPolicyName() {
+        Session session = this.sessionFactory.openSession();
+        LinkedHashMap<String, Integer> policyNameAndTotalPayment = new LinkedHashMap<>();
+        String sql = "select p.\"name\",count(*) as quantitiy from customer_policy cp,policy p  " +
+                "where cp.agency_id =p.id group by p.\"name\"\n";
+
+        List<Object> list = session.createNativeQuery(sql).getResultList();
+
+        for (int i = 0; i < list.size(); i++) {
+            Object[] row = (Object[]) list.get(i);
+            String policyName = row[0].toString();
+            int amount = ((BigInteger) row[1]).intValue();
+
+            policyNameAndTotalPayment.put(policyName, amount);
+        }
+        return policyNameAndTotalPayment;
+    }
+
+
 }

@@ -1,12 +1,14 @@
 package com.erenuygur.service;
 
-import com.erenuygur.model.Customer;
+import com.erenuygur.chart.BarChart;
+import com.erenuygur.chart.PieChart;
 import com.erenuygur.model.CustomerPolicy;
-import com.erenuygur.model.Policy;
 import com.erenuygur.repository.CustomerPolicyRepository;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.io.IOException;
 import java.util.LinkedHashMap;
 import java.util.List;
 
@@ -25,5 +27,12 @@ public class CustomerPolicyService {
 
     public LinkedHashMap<String, Double> getReportByYear() {
         return this.customerPolicyRepository.getTotalAmountByYear();
+    }
+
+    public void createBarChart() throws IOException {
+        ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
+        CustomerPolicyService customerPolicyService = ctx.getBean(CustomerPolicyService.class);
+
+        BarChart.barChart(customerPolicyService.getReportByYear());
     }
 }

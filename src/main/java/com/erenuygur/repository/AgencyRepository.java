@@ -1,6 +1,7 @@
 package com.erenuygur.repository;
 
 import com.erenuygur.model.Agency;
+import com.erenuygur.model.Payment;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.Session;
@@ -8,6 +9,7 @@ import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.persistence.Query;
+import javax.persistence.TypedQuery;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
@@ -39,7 +41,6 @@ public class AgencyRepository {
             CriteriaBuilder criteriaBuilder = session.getCriteriaBuilder();
             CriteriaQuery<Agency> criteriaQuery = criteriaBuilder.createQuery(Agency.class);
             Root<Agency> root = criteriaQuery.from(Agency.class);
-
             CriteriaQuery<Agency> criteriaQuery2 = criteriaQuery.select(root);
             Query query = session.createQuery(criteriaQuery2); // Query<Agency>
             List<Agency> agencyList = query.getResultList();
@@ -49,6 +50,4 @@ public class AgencyRepository {
             return new ArrayList<Agency>();
         }
     }
-
-
 }

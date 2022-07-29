@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2feeacf-ccc8-452b-a048-fea26386e122" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/util/Display.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Total Policy Amount BarChart.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Total Policy Amount BarChart.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/TermProjectApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/TermProjectApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/chart/BarChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/chart/BarChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/chart/LineChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/chart/LineChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/chart/PieChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/chart/PieChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/repository/AgencyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/repository/AgencyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/repository/PolicyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/repository/PolicyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/service/AgencyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/service/AgencyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/service/CustomerPolicyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/service/CustomerPolicyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/service/PolicyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/service/PolicyService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +35,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/../../../../../Program Files/Java/jdk-17.0.1/lib/src.zip!/java.base/java/lang/IllegalArgumentException.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../../Program Files/Java/jdk-17.0.1/lib/src.zip!/java.base/java/util/HashMap.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -43,6 +55,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -96,7 +109,14 @@
       <workItem from="1658943405677" duration="446000" />
       <workItem from="1658943895796" duration="4000" />
       <workItem from="1658967109806" duration="443000" />
-      <workItem from="1659013619711" duration="3838000" />
+      <workItem from="1659013619711" duration="11227000" />
+      <workItem from="1659050408383" duration="2103000" />
+      <workItem from="1659056311750" duration="1314000" />
+      <workItem from="1659099272320" duration="207000" />
+      <workItem from="1659099494075" duration="1699000" />
+      <workItem from="1659110876849" duration="4768000" />
+      <workItem from="1659125428623" duration="746000" />
+      <workItem from="1659134837280" duration="1522000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1658967435135</created>
