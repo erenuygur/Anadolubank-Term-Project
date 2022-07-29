@@ -1,4 +1,4 @@
-#Anadolubank Bootcamp Term-Project
+# Anadolubank Bootcamp Term-Project
 
 Proje Açıklaması 
 2030 yılında, siz bir Sigorta Şirketinde Kıdemli Yazılım Geliştirici olarak görev almaya başladınız. Birkaç ay 
@@ -16,8 +16,8 @@ verilere tablo formatında erişebilmeli veya PL/SQL sorgulama dili kullanarak e
 - Kullanıcı geçmiş döneme ilişkin verileri birbirleriyle karşılaştırabilmelidir.
 - Kullanıcı geçmiş döneme ait verileri grafik üzerinde görebilmelidir.
 
-Kullanılacak Teknolojiler 
+Kullanılan Teknolojiler 
 - Java
 - Hibernate
-- PostgreSQL veya MySQL
+- PostgreSQL
 - Junit
