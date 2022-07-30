@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2feeacf-ccc8-452b-a048-fea26386e122" name="Changes" comment="second commit">
+    <list default="true" id="a2feeacf-ccc8-452b-a048-fea26386e122" name="Changes" comment="final commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/chart/BarChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/chart/BarChart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/chart/LineChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/chart/LineChart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/chart/PieChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/chart/PieChart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/repository/AgencyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/repository/AgencyRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/service/AgencyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/service/AgencyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/service/CustomerPolicyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/service/CustomerPolicyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/service/PolicyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/service/PolicyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/util/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/util/Display.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +113,8 @@
       <workItem from="1659178142807" duration="630000" />
       <workItem from="1659206703696" duration="2675000" />
       <workItem from="1659211328295" duration="650000" />
-      <workItem from="1659212802891" duration="733000" />
+      <workItem from="1659212802891" duration="928000" />
+      <workItem from="1659214055918" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1658967435135</created>
@@ -158,7 +151,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659169277921</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="final commit">
+      <created>1659213613561</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659213613561</updated>
+    </task>
+    <task id="LOCAL-00007" summary="final commit">
+      <created>1659213633585</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659213633585</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +185,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
