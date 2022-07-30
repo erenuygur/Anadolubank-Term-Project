@@ -3,10 +3,9 @@ package com.erenuygur;
 import com.erenuygur.util.Display;
 import org.springframework.context.support.AbstractApplicationContext;
 
-import java.io.IOException;
 import java.util.Scanner;
 
-public class TermProjectApp {
+public class TermProjectApplication {
     private static AbstractApplicationContext ctx = null;
     private static final Scanner KEYBOARD_INPUT = new Scanner(System.in);
 

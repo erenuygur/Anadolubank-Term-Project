@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2feeacf-ccc8-452b-a048-fea26386e122" name="Changes" comment="second commit">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/chart/BarChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/chart/BarChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Total Policy Amount BarChart.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Total Policy Amount BarChart.jpeg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +54,8 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="TermProjectApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.erenuygur.TermProjectApp" />
+    <configuration name="TermProjectApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.erenuygur.TermProjectApplication" />
       <module name="FinalTerm" />
       <extension name="coverage">
         <pattern>
@@ -68,7 +69,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TermProjectApp" />
+        <item itemvalue="Application.TermProjectApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +106,8 @@
       <workItem from="1659099494075" duration="1699000" />
       <workItem from="1659110876849" duration="4768000" />
       <workItem from="1659125428623" duration="746000" />
-      <workItem from="1659134837280" duration="1665000" />
+      <workItem from="1659134837280" duration="2589000" />
+      <workItem from="1659162061667" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1658967435135</created>
@@ -128,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659136425630</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="second commit">
+      <created>1659136521098</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659136521098</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
