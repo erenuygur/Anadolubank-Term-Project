@@ -22,7 +22,6 @@ public class PieChart {
                 true,
                 false);
 
-        String pathName="Policy Count by Policy Type PieChart.jpeg";
         ChartPanel cp = new ChartPanel(pieChart);
         JFrame frame = new JFrame();
 

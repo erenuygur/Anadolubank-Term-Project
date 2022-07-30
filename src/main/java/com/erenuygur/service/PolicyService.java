@@ -37,7 +37,7 @@ public class PolicyService {
         ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
         PolicyService policyService = ctx.getBean(PolicyService.class);
 
-        BarChart.barChartInt(policyService.getReportByPolicyType());
+        BarChart.barChartForPolicyType(policyService.getReportByPolicyType());
     }
 
     public void createPieChart() throws Exception {

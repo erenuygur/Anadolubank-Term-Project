@@ -1,6 +1,7 @@
 package com.erenuygur.service;
 
 import com.erenuygur.chart.BarChart;
+import com.erenuygur.chart.LineChart;
 import com.erenuygur.chart.PieChart;
 import com.erenuygur.model.CustomerPolicy;
 import com.erenuygur.repository.CustomerPolicyRepository;
@@ -33,6 +34,13 @@ public class CustomerPolicyService {
         ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
         CustomerPolicyService customerPolicyService = ctx.getBean(CustomerPolicyService.class);
 
-        BarChart.barChart(customerPolicyService.getReportByYear());
+        BarChart.barChartForByYear(customerPolicyService.getReportByYear());
+    }
+
+    public void createLineChart() throws Exception {
+        ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
+        CustomerPolicyService customerPolicyService = ctx.getBean(CustomerPolicyService.class);
+
+        LineChart.lineChartForByYear(customerPolicyService.getReportByYear());
     }
 }

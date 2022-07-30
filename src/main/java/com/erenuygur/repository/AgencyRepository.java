@@ -14,6 +14,7 @@ import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
 
 @NoArgsConstructor
@@ -50,4 +51,25 @@ public class AgencyRepository {
             return new ArrayList<Agency>();
         }
     }
+
+    public LinkedHashMap<String, Double> getTotalPaymentByAgency() {
+        Session session = this.sessionFactory.openSession();
+        LinkedHashMap<String, Double> totalPaymentByYearAgency = new LinkedHashMap<>();
+
+        String hql = " SELECT a.agencyName, sum(p.paymentAmount) from Payment as p , Agency as a, CustomerPolicy as cp\n" +
+                "where cp.id = p.customerPolicyId and cp.agencyId = a.id\n" +
+                "group by a.agencyName ";
+        List<Object> list = session.createQuery(hql).getResultList();
+
+        for (int i = 0; i < list.size(); i++) {
+            Object[] row = (Object[]) list.get(i);
+            String agencyName = row[0].toString();
+            double payment = (double) row[1];
+
+            totalPaymentByYearAgency.put(agencyName, payment);
+        }
+
+        return totalPaymentByYearAgency;
+    }
+
 }
