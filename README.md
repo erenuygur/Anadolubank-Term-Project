@@ -21,3 +21,5 @@ Kullanılan Teknolojiler
 - Hibernate
 - PostgreSQL
 - Junit
+
+Not: Database verileri, sonuçlar ve diyagramlar "documents" adlı klasördedir.
