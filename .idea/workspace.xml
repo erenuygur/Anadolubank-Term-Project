@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2feeacf-ccc8-452b-a048-fea26386e122" name="Changes" comment="final commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/erenuygur/test/CustomerPolicyServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/erenuygur/test/PolicyServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/model/Agency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/model/Agency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/service/AgencyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/service/AgencyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/service/CustomerPolicyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/service/CustomerPolicyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/service/PolicyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/service/PolicyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/erenuygur/test/AgencyServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/erenuygur/test/AgencyServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/erenuygur/test/Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +60,7 @@
     &quot;spring.configuration.checksum&quot;: &quot;e11a2e6a04417b26cb7df847a0701c5f&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TermProjectApplication">
+  <component name="RunManager" selected="JUnit.All in FinalTerm">
     <configuration name="TermProjectApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.erenuygur.TermProjectApplication" />
       <module name="FinalTerm" />
@@ -72,11 +79,16 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.erenuygur.test.*" />
+          <option name="ENABLED" value="false" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="com.erenuygur.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.erenuygur.test" />
       <option name="MAIN_CLASS_NAME" value="com.erenuygur.test.AgencyServiceTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,10 +110,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in FinalTerm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinalTerm" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TermProjectApplication" />
+        <item itemvalue="JUnit.All in FinalTerm" />
         <item itemvalue="JUnit.AgencyServiceTest" />
+        <item itemvalue="Application.TermProjectApplication" />
         <item itemvalue="JUnit.AgencyServiceTest.ListAgencyTest" />
       </list>
     </recent_temporary>
@@ -152,7 +173,7 @@
       <workItem from="1659214167882" duration="923000" />
       <workItem from="1659223550771" duration="7000" />
       <workItem from="1659274188132" duration="9088000" />
-      <workItem from="1659283429606" duration="74000" />
+      <workItem from="1659283429606" duration="2307000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1658967435135</created>
@@ -257,5 +278,11 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FinalProject$AgencyServiceTest.ic" NAME="AgencyServiceTest Coverage Results" MODIFIED="1659284873447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.erenuygur.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FinalProject$All_in_FinalTerm.ic" NAME="All in FinalTerm Coverage Results" MODIFIED="1659285536861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

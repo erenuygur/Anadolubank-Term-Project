@@ -1,6 +1,5 @@
 package com.erenuygur.util;
 
-import com.erenuygur.model.Agency;
 import com.erenuygur.service.AgencyService;
 import com.erenuygur.service.CustomerPolicyService;
 import com.erenuygur.service.PolicyService;

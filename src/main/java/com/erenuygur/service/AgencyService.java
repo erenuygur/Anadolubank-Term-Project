@@ -1,11 +1,11 @@
 package com.erenuygur.service;
 
-
 import com.erenuygur.chart.BarChart;
 import com.erenuygur.model.Agency;
 import com.erenuygur.repository.AgencyRepository;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.beans.BeansException;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.io.IOException;
@@ -29,11 +29,17 @@ public class AgencyService {
         return this.agencyRepository.getTotalPaymentByAgency();
     }
 
-    public void createBarChart() throws IOException {
-        ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
-        AgencyService agencyService = ctx.getBean(AgencyService.class);
+    public boolean createBarChart() throws IOException {
+        try {
+            ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
+            AgencyService agencyService = ctx.getBean(AgencyService.class);
 
-        BarChart.barChartForByAgency(agencyService.getTotalPaymentByAgency());
+            BarChart.barChartForByAgency(agencyService.getTotalPaymentByAgency());
+            return true;
+        } catch (BeansException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
-
 }

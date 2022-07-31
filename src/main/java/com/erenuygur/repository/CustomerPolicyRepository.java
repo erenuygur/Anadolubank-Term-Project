@@ -1,6 +1,5 @@
 package com.erenuygur.repository;
 
-import com.erenuygur.model.Agency;
 import com.erenuygur.model.CustomerPolicy;
 import lombok.Data;
 import lombok.NoArgsConstructor;

@@ -1,7 +1,6 @@
 package com.erenuygur.repository;
 
 import com.erenuygur.model.Agency;
-import com.erenuygur.model.Payment;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.Session;
@@ -9,7 +8,6 @@ import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.persistence.Query;
-import javax.persistence.TypedQuery;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;

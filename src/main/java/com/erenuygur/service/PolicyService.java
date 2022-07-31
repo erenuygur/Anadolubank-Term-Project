@@ -6,6 +6,7 @@ import com.erenuygur.model.Policy;
 import com.erenuygur.repository.PolicyRepository;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.beans.BeansException;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.io.IOException;
@@ -33,18 +34,30 @@ public class PolicyService {
         return policyRepository.getPolicyName();
     }
 
-    public void createBarChart() throws IOException {
-        ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
-        PolicyService policyService = ctx.getBean(PolicyService.class);
+    public boolean createBarChart() throws IOException {
+        try {
+            ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
+            PolicyService policyService = ctx.getBean(PolicyService.class);
 
-        BarChart.barChartForPolicyType(policyService.getReportByPolicyType());
+            BarChart.barChartForPolicyType(policyService.getReportByPolicyType());
+            return true;
+        } catch (BeansException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
-    public void createPieChart() throws Exception {
-        ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
-        PolicyService policyService = ctx.getBean(PolicyService.class);
+    public boolean createPieChart() throws Exception {
+        try {
+            ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
+            PolicyService policyService = ctx.getBean(PolicyService.class);
 
-        PieChart.pieChart(policyService.getReportByPolicyType());
+            PieChart.pieChart(policyService.getReportByPolicyType());
+            return true;
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 
 }

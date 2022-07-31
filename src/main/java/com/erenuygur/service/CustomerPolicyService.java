@@ -2,11 +2,11 @@ package com.erenuygur.service;
 
 import com.erenuygur.chart.BarChart;
 import com.erenuygur.chart.LineChart;
-import com.erenuygur.chart.PieChart;
 import com.erenuygur.model.CustomerPolicy;
 import com.erenuygur.repository.CustomerPolicyRepository;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.beans.BeansException;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.io.IOException;
@@ -30,17 +30,29 @@ public class CustomerPolicyService {
         return this.customerPolicyRepository.getTotalAmountByYear();
     }
 
-    public void createBarChart() throws IOException {
-        ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
-        CustomerPolicyService customerPolicyService = ctx.getBean(CustomerPolicyService.class);
+    public boolean createBarChart() throws IOException {
+        try {
+            ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
+            CustomerPolicyService customerPolicyService = ctx.getBean(CustomerPolicyService.class);
 
-        BarChart.barChartForByYear(customerPolicyService.getReportByYear());
+            BarChart.barChartForByYear(customerPolicyService.getReportByYear());
+            return true;
+        } catch (BeansException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
-    public void createLineChart() throws Exception {
-        ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
-        CustomerPolicyService customerPolicyService = ctx.getBean(CustomerPolicyService.class);
+    public boolean createLineChart() throws Exception {
+        try {
+            ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
+            CustomerPolicyService customerPolicyService = ctx.getBean(CustomerPolicyService.class);
 
-        LineChart.lineChartForByYear(customerPolicyService.getReportByYear());
+            LineChart.lineChartForByYear(customerPolicyService.getReportByYear());
+            return true;
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 }
