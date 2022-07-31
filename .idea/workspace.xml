@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2feeacf-ccc8-452b-a048-fea26386e122" name="Changes" comment="final commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/erenuygur/AgencyServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/repository/AgencyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/repository/AgencyRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/service/AgencyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/service/AgencyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +151,8 @@
       <workItem from="1659214055918" duration="6000" />
       <workItem from="1659214167882" duration="923000" />
       <workItem from="1659223550771" duration="7000" />
-      <workItem from="1659274188132" duration="8701000" />
+      <workItem from="1659274188132" duration="9088000" />
+      <workItem from="1659283429606" duration="74000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1658967435135</created>
