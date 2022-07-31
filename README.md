@@ -14,4 +14,8 @@ Kullanılan Teknolojiler
 - PostgreSQL
 - Junit
 
+<<<<<<< HEAD
 Not: Database verileri, sonuçlar ve diyagramlar "documents" adlı klasördedir.
+=======
+Not: Database verileri, sonuçlar ve diyagramlar "documents" adlı klasördedir.
+>>>>>>> origin/master

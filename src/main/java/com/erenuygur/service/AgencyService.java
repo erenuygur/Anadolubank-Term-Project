@@ -3,8 +3,6 @@ package com.erenuygur.service;
 
 import com.erenuygur.chart.BarChart;
 import com.erenuygur.model.Agency;
-import com.erenuygur.model.Customer;
-import com.erenuygur.model.Policy;
 import com.erenuygur.repository.AgencyRepository;
 import lombok.Data;
 import lombok.NoArgsConstructor;

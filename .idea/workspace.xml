@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2feeacf-ccc8-452b-a048-fea26386e122" name="Changes" comment="final commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/erenuygur/AgencyServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/repository/AgencyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/repository/AgencyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/erenuygur/service/AgencyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/erenuygur/service/AgencyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +60,7 @@
     &quot;spring.configuration.checksum&quot;: &quot;e11a2e6a04417b26cb7df847a0701c5f&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TermProjectApplication">
     <configuration name="TermProjectApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.erenuygur.TermProjectApplication" />
       <module name="FinalTerm" />
@@ -66,9 +74,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AgencyServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinalTerm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.erenuygur.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.erenuygur" />
+      <option name="MAIN_CLASS_NAME" value="org.erenuygur.AgencyServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AgencyServiceTest.ListAgencyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinalTerm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.erenuygur.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.erenuygur" />
+      <option name="MAIN_CLASS_NAME" value="org.erenuygur.AgencyServiceTest" />
+      <option name="METHOD_NAME" value="ListAgencyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TermProjectApplication" />
+        <item itemvalue="JUnit.AgencyServiceTest" />
+        <item itemvalue="JUnit.AgencyServiceTest.ListAgencyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -115,7 +156,9 @@
       <workItem from="1659211328295" duration="650000" />
       <workItem from="1659212802891" duration="928000" />
       <workItem from="1659214055918" duration="6000" />
-      <workItem from="1659214167882" duration="286000" />
+      <workItem from="1659214167882" duration="923000" />
+      <workItem from="1659223550771" duration="7000" />
+      <workItem from="1659274188132" duration="8701000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1658967435135</created>
@@ -187,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659214303159</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="final commit">
+      <created>1659214462758</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1659214462758</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
