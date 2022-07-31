@@ -8,7 +8,11 @@ karları kaybettiğini tespit ettiler. Hem internet üzerinden yapılan araştı
 geri dönüşler sayesinde üst düzey yöneticiler Sigorta Şirketi için bir İş Zekası sistemi geliştirilmesi
 gerektiğine karar verdiler. Üst düzey yöneticiler, bu yazılımın geliştirilmesi görevini size verdi
 
+<<<<<<< HEAD
 Kullanılan Teknolojiler
+=======
+Kullanılan Teknolojiler 
+>>>>>>> 814aa786f32e29f8f048b242faa8eaaf14efcfd2
 - Java
 - Hibernate
 - PostgreSQL
