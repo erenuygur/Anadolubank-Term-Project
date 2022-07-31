@@ -78,12 +78,12 @@
       <module name="FinalTerm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.erenuygur.*" />
+          <option name="PATTERN" value="com.erenuygur.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.erenuygur" />
-      <option name="MAIN_CLASS_NAME" value="org.erenuygur.AgencyServiceTest" />
+      <option name="PACKAGE_NAME" value="com.erenuygur.test" />
+      <option name="MAIN_CLASS_NAME" value="com.erenuygur.test.AgencyServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,12 +93,12 @@
       <module name="FinalTerm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.erenuygur.*" />
+          <option name="PATTERN" value="com.erenuygur.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.erenuygur" />
-      <option name="MAIN_CLASS_NAME" value="org.erenuygur.AgencyServiceTest" />
+      <option name="PACKAGE_NAME" value="com.erenuygur.test" />
+      <option name="MAIN_CLASS_NAME" value="com.erenuygur.test.AgencyServiceTest" />
       <option name="METHOD_NAME" value="ListAgencyTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
