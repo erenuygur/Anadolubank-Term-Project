@@ -1,4 +1,4 @@
-package org.erenuygur;
+package com.erenuygur.test;
 
 import com.erenuygur.model.Agency;
 import com.erenuygur.service.AgencyService;
