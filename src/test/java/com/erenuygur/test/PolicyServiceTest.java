@@ -20,8 +20,8 @@ public class PolicyServiceTest {
 
     @Test
     public void testListCustomerPolicyTest() throws Exception {
-        List<Policy> customerPolicyList = policyService.listPolicy();
-        assertThat(customerPolicyList.size()).isNotEqualTo(0);
+        List<Policy> policyList = policyService.listPolicy();
+        assertThat(policyList.size()).isNotEqualTo(0);
     }
 
     @Test
